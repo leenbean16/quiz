@@ -15,7 +15,7 @@ $(document).ready(function() {
     $('button#b').hide();
     $('button#c').hide();
     $('button#d').hide();
-    console.log("Hi Derek!");
+    console.log("Hi!");
 
     $(".startButton").click(function quiz() {
         $(this).hide();
@@ -47,6 +47,6 @@ $(document).ready(function() {
     $(".col-lg-6").click(function congrats() {
         $(jumbo).hide();
         console.log("But not really :P");
-        console.log("See you in class!");
+        console.log("See ya!");
     });
 });
